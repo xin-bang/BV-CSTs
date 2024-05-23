@@ -8,7 +8,7 @@
 #cutree_rows: 若对行进行了cluster,则可以指定cluster个数(基于hclust)
 #kmeans_cols：the number of kmeans clusters to make, if we want to aggregate the rows before drawing heatmap 
 #需要先使用Valencia对矩阵进行分型。
-
+#! /home/luxingbang/miniconda3/envs/mamba/bin/Rscript
 rm(list=ls())
 set.seed(12)
 suppressPackageStartupMessages({
